@@ -5,7 +5,17 @@
   "repository": "https://github.com/MelkCampos/again-gobarber.git",
   "author": "MelkCampos <melkcampos33@gmail.com>",
   "license": "MIT",
-  "devDependencies": {
+  "scripts": {
+    "dev": "nodemon src/server.js",
+    "dev:debug": "nodemon --inspect src/server.js"
+  },
+  
+  "dependencies": {
     "express": "^4.17.1"
+  },
+
+  "devDependencies": {
+    "nodemon": "^2.0.2",
+    "sucrase": "^3.12.1"
   }
 }
